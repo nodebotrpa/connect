@@ -29,6 +29,7 @@ for (i=0;i<args.length;i++) {
 	}
 	if (argp[0]=="port") port = argp[1];
 	if (argp[0]=="log-level") {
+		console.log("Logging level is "+argp[1]);
 		switch (argp[1]) {
 			case "OFF" : log = lOFF;break;
 			case "DEBUG" : log = lDEBUG;break;
