@@ -128,6 +128,7 @@ const wss = new WebSocket.Server({ server });
 			result.value = "Worker is inactive.";
 			ws.send(JSON.stringify(result));
 			ws.close();
+			ERROR(JSON.stringify(result));
 		  } else {
 			DEBUG('Sending message to worker '+JSON.stringify(msg));
 			users.get(msg.user).setNode(ws);
