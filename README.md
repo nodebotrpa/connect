@@ -1,5 +1,5 @@
 # BotConnect
-BotConnect manages message traffic between NodeRed flow and Worker
+BotConnect manages message traffic between NodeRed flow and Worker. If you use Worker in Single mode, you dont need to install this module.
 
 ## Installation using executable
 1. Download ws-ssl-x86.zip and unzip files.
